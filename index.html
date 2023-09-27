@@ -14,8 +14,8 @@
       <li><a href="#">Description</a></li>
       <li><a href="#colors">Colors</a></li>
       <li><a href="#fonts">Fonts</a></li>
-      <li><a href="#">Text Styles</a></li>
-      <li><a href="#">Buttons</a></li>
+      <li><a href="#textStyle">Text Styles</a></li>
+      <li><a href="#buttons">Buttons</a></li>
     </ul>
   </nav>
   <main>
@@ -39,7 +39,7 @@
     </header>
     <section class="container" id="colors">
       <h2>Colors</h2>
-      <div class="color-container">
+      <div class="element-container">
         <div class="color-element color-primary shadow">
           <h2>Vivd Blue</h2>
           <h3>#007BFF</h3>
@@ -69,25 +69,66 @@
     </section>
     <section class="container" id="fonts">
       <h2>Fonts</h2>
-      <div>
-        <div class="font1">
+      <div class="element-container">
+        <div class="font1 font-container">
           <h3>Bitter</h3>
           <p class="font-light">The quick brown fox jumps over the lazy dog.</p>
           <p class="font-regular">The quick brown fox jumps over the lazy dog.</p>
           <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
         </div>
-        <div class="font2">
+        <div class="font2 font-container">
           <h3>Kanit</h3>
           <p class="font-light">The quick brown fox jumps over the lazy dog.</p>
           <p class="font-regular">The quick brown fox jumps over the lazy dog.</p>
           <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
         </div>
-        <div class="font3">
+        <div class="font3 font-container">
           <h3>Poppins</h3>
           <p class="font-light">The quick brown fox jumps over the lazy dog.</p>
           <p class="font-regular">The quick brown fox jumps over the lazy dog.</p>
           <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
         </div>
+      </div>
+    </section>
+    <section class="container" id="textStyle">
+      <h2>Text Styles</h2>
+      <div>
+        <div class="default-container">
+          <h3 id="heading">Heading</h3>
+          <div>
+            <code>font-family: Kanit, sans-serif;</code><br/>
+            <code>font-size: 36px;</code><br/>
+            <code>letter-spacing: 1px;</code><br/>
+          </div>
+        </div>
+        <div class="default-container">
+          <h3 id="subHeading">Sub Heading</h3>
+          <div>
+            <code>font-family: Bitter, serif;</code><br/>
+            <code>font-size: 24px;</code><br/>
+            <code>letter-spacing: 1px;</code><br/>
+          </div>
+        </div>
+        <div class="default-container">
+          <h3 id="paragraph">Paragraph</h3>
+          <div>
+            <code>font-family: Poppins, sans-serif;</code><br/>
+            <code>font-size: 16px;</code><br/>
+            <code>letter-spacing: 1px;</code><br/>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="container" id="buttons">
+      <h2>Buttons <code>button</code></h2>
+      <div class="default-container">
+        <h3>Flat <code>.btn-flat</code></h3>
+        <a class="button btn-flat">Submit</a>
+      </div>
+      <div class="default-container">
+        <h3>Skeuomorphism <code>.btn-3d</code></h3>
+        <a class="button btn-3d">Submit</a>
       </div>
     </section>
   </main>
