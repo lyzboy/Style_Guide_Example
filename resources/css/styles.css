@@ -102,3 +102,31 @@ header table {
 
 
 /* Color styles */
+
+.color {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.color-element {
+    padding: 15px;
+    width: 45%;
+    margin: 10px;
+}
+
+.color-primary {
+    background-color: #007BFF;
+}
+.color-secondary {
+    background-color: #FFD700;
+}
+.color-accent {
+    background-color: #FF4500;
+}
+.color-black {
+    background-color: #CCCCCC;
+}
+.color-white {
+    background-color: #FFFFFF;
+}
